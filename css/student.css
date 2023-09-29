@@ -1,0 +1,60 @@
+.add-student {
+    padding: 10px 20px;
+    border: none;
+    background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.add-student:hover{
+    color: rgb(36, 255, 36);
+}
+table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+}
+
+table thead th {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6d17cb;
+}
+
+table tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+table tbody tr {
+    cursor: pointer;
+}
+
+.student-remove {
+    padding: 5px;
+    border: none;
+    background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.student-edit {
+    padding: 5px 15px;
+    border: none;
+    background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.student-remove:hover {
+color: red;
+}
+.student-edit:hover{
+   color: rgb(36, 255, 36);
+  }

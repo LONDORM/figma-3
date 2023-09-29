@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Kanit&family=Mukta:wght@200&family=Pathway+Extreme:wght@200;500&family=Prompt&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/about.css">
+<title>About page</title>
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                Группа №ITC011-46
+            </div>
+            <div class="sidebar-avatar">
+                <img src="./img/user-avatar-icon-512x512-vufpcmdn.png" alt="">
+               <div>
+                <h1 class="sidebar-avatar-name">Your</h1>
+                <p>Coding</p>
+               </div>
+            </div>
+            <div class="sidebar-menu">
+                <a  href="index.html">Home</a>
+                <a  href="teachers.html">Teachers</a>
+                <a href="students.html">Students</a>
+                <a class="active" href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-navbar">
+                <div class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="main-navbar-user">
+                    <span class="date">24.08.2023 18:00</span>
+                    <img src="./img/user-avatar-icon-512x512-vufpcmdn.png" alt="">
+                </div>
+            </div>
+            <div class="main-content">
+               <div class="ab-tcontent">
+                <h1 class="ab-title">Our project</h1>
+                <p class="ab-stitle">in our product you can store the data of your
+                 <br> students our project supports all browsers access to our 
+                  <br>  project is absolutely free
+                   the project was founded in 2023!
+                   thank you for choosing us</p>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const toggle = document.querySelector(".toggle")
+        const nav = document.querySelector(".sidebar")
+
+        toggle.addEventListener("click", function () {
+            nav.classList.toggle("sidebar-active")
+        })
+    </script>
+
+    <script src="./css/js/date.js"></script>
+</body>
+
+</html>

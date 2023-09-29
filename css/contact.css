@@ -1,0 +1,41 @@
+.tt-con{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    color:  #6d17cb;
+}
+.ck-img{
+    width: 100px;
+
+}
+
+.ck-img img{
+    width: 50px;
+    text-align: center;
+}
+.card-ck{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+ 
+}
+.ck-content{
+    text-align: center;
+    padding: 20px 10px;
+}
+.ck-content img{
+    width: 50px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card-ck:hover {
+    box-shadow: 0 8px 20px 12px rgba(0,0,0,0.2);
+    background-color:#2bc96d;
+    color: white;
+  }
+  
